@@ -1,5 +1,5 @@
 {
-  "provenance": "Privacy-filtered projection of previously recorded GPU runs. Not a new execution; raw binaries, host metadata, timings, commands and logs omitted.",
+  "provenance": "Selected observations from recorded GPU runs: source examples, input bytes, expected and actual outputs, and emitted AIR declarations. Full raw artifacts and execution logs are not included.",
   "cases": [
     {
       "name": "math_float",

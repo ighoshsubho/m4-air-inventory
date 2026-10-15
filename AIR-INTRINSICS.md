@@ -17,7 +17,7 @@ Complete for the extracted versioned compiler name tables. Not a complete semant
 
 Compiler SHA-256: `e8886a8fb8f7020df53c3e66d76d197b8e545ba8e9150649500403aa5083bf32`
 
-Exported table evidence: `evidence/tables/tables.json`. Raw disassembly, command manifests, IR and binary artifacts are intentionally omitted from this privacy-filtered release. Observation declarations and original source snapshots remain available in JSON and source files.
+Table evidence: `evidence/tables/tables.json`. Observed declarations and source snapshots are included; full raw disassembly, command logs and compiled artifacts are not. See `AIR-ARGUMENTS.md` for parameter types and source examples.
 
 ## Version counts
 

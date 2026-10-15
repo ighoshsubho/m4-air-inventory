@@ -1,0 +1,336 @@
+[
+  {
+    "name": "math_float",
+    "source": "probes/math_float.metal",
+    "category": "math",
+    "header_references": [
+      "metal_math",
+      "metal_common"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "math_half",
+    "source": "probes/math_half.metal",
+    "category": "math",
+    "header_references": [
+      "metal_math",
+      "metal_common"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "math_float2",
+    "source": "probes/math_float2.metal",
+    "category": "math",
+    "header_references": [
+      "metal_math",
+      "metal_common"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "math_half2",
+    "source": "probes/math_half2.metal",
+    "category": "math",
+    "header_references": [
+      "metal_math",
+      "metal_common"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "math_float4",
+    "source": "probes/math_float4.metal",
+    "category": "math",
+    "header_references": [
+      "metal_math",
+      "metal_common"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "math_half4",
+    "source": "probes/math_half4.metal",
+    "category": "math",
+    "header_references": [
+      "metal_math",
+      "metal_common"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "math_precise",
+    "source": "probes/math_precise.metal",
+    "category": "math",
+    "header_references": [
+      "metal_math"
+    ],
+    "standard": "metal3.2",
+    "flags": [
+      "-fno-fast-math"
+    ]
+  },
+  {
+    "name": "integer_int",
+    "source": "probes/integer_int.metal",
+    "category": "integer",
+    "header_references": [
+      "metal_integer"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "integer_uint",
+    "source": "probes/integer_uint.metal",
+    "category": "integer",
+    "header_references": [
+      "metal_integer"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "integer_short4",
+    "source": "probes/integer_short4.metal",
+    "category": "integer",
+    "header_references": [
+      "metal_integer"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "integer_ushort4",
+    "source": "probes/integer_ushort4.metal",
+    "category": "integer",
+    "header_references": [
+      "metal_integer"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "integer_long",
+    "source": "probes/integer_long.metal",
+    "category": "integer",
+    "header_references": [
+      "metal_integer"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "integer_ulong",
+    "source": "probes/integer_ulong.metal",
+    "category": "integer",
+    "header_references": [
+      "metal_integer"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "simd_float",
+    "source": "probes/simd_float.metal",
+    "category": "simd_quad",
+    "header_references": [
+      "metal_simdgroup",
+      "metal_quadgroup"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "simd_half",
+    "source": "probes/simd_half.metal",
+    "category": "simd_quad",
+    "header_references": [
+      "metal_simdgroup",
+      "metal_quadgroup"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "simd_int",
+    "source": "probes/simd_int.metal",
+    "category": "simd_quad",
+    "header_references": [
+      "metal_simdgroup",
+      "metal_quadgroup"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "simd_uint",
+    "source": "probes/simd_uint.metal",
+    "category": "simd_quad",
+    "header_references": [
+      "metal_simdgroup",
+      "metal_quadgroup"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "simd_vote",
+    "source": "probes/simd_vote.metal",
+    "category": "simd_quad",
+    "header_references": [
+      "metal_simdgroup"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "atomic_uint",
+    "source": "probes/atomic_uint.metal",
+    "category": "atomic",
+    "header_references": [
+      "metal_atomic"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "atomic_int",
+    "source": "probes/atomic_int.metal",
+    "category": "atomic",
+    "header_references": [
+      "metal_atomic"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "atomic_float",
+    "source": "probes/atomic_float.metal",
+    "category": "atomic",
+    "header_references": [
+      "metal_atomic"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "barriers_threadgroup_atomic",
+    "source": "probes/barriers_threadgroup_atomic.metal",
+    "category": "barrier_atomic",
+    "header_references": [
+      "metal_compute",
+      "metal_atomic"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "texture_sample",
+    "source": "probes/texture_sample.metal",
+    "category": "texture",
+    "header_references": [
+      "__bits/metal_texture2d"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "texture_read_write",
+    "source": "probes/texture_read_write.metal",
+    "category": "texture",
+    "header_references": [
+      "__bits/metal_texture2d"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "texture_half3d",
+    "source": "probes/texture_half3d.metal",
+    "category": "texture",
+    "header_references": [
+      "__bits/metal_texture3d"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "texture_depth",
+    "source": "probes/texture_depth.metal",
+    "category": "texture",
+    "header_references": [
+      "__bits/metal_depth2d"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "geometric",
+    "source": "probes/geometric.metal",
+    "category": "geometric",
+    "header_references": [
+      "metal_geometric"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "matrix_float",
+    "source": "probes/matrix_float.metal",
+    "category": "matrix",
+    "header_references": [
+      "metal_matrix"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "simd_matrix_half",
+    "source": "probes/simd_matrix_half.metal",
+    "category": "simd_matrix",
+    "header_references": [
+      "metal_simdgroup_matrix"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "simd_matrix_float",
+    "source": "probes/simd_matrix_float.metal",
+    "category": "simd_matrix",
+    "header_references": [
+      "metal_simdgroup_matrix"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "ray_triangle",
+    "source": "probes/ray_triangle.metal",
+    "category": "raytracing",
+    "header_references": [
+      "metal_raytracing"
+    ],
+    "standard": "metal3.2",
+    "flags": []
+  },
+  {
+    "name": "tensor_read",
+    "source": "probes/tensor_read.metal",
+    "category": "tensor",
+    "header_references": [
+      "metal_tensor",
+      "__mdspan/extents.h"
+    ],
+    "standard": "metal4.0",
+    "flags": []
+  }
+]

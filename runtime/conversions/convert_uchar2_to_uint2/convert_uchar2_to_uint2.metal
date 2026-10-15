@@ -1,0 +1,6 @@
+#include <metal_stdlib>
+using namespace metal;
+kernel void probe(device const uchar2 *a [[buffer(0)]],
+                  device uint2 *b [[buffer(1)]]) {
+    b[0] = uint2(a[0]);
+}

@@ -1,0 +1,6 @@
+#include <metal_stdlib>
+using namespace metal;
+kernel void probe(device const uint *a [[buffer(0)]],
+                  device half *b [[buffer(1)]]) {
+    b[0] = half(a[0]);
+}

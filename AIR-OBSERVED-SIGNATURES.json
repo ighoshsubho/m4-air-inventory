@@ -1,0 +1,2560 @@
+[
+  {
+    "base": "air.acos",
+    "observations": [
+      {
+        "symbol": "air.acos.f16",
+        "declaration": "declare half @air.acos.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.acos.v2f16",
+        "declaration": "declare <2 x half> @air.acos.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.acos.v4f16",
+        "declaration": "declare <4 x half> @air.acos.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.add_sat.s",
+    "observations": [
+      {
+        "symbol": "air.add_sat.s.i32",
+        "declaration": "declare i32 @air.add_sat.s.i32(i32, i32) local_unnamed_addr #1",
+        "probe": "integer_int-retry1",
+        "source": "evidence/probes/integer_int-retry1/integer_int.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.add_sat.s.v4i16",
+        "declaration": "declare <4 x i16> @air.add_sat.s.v4i16(<4 x i16>, <4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_short4-retry1",
+        "source": "evidence/probes/integer_short4-retry1/integer_short4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.add_sat.s.i64",
+        "declaration": "declare i64 @air.add_sat.s.i64(i64, i64) local_unnamed_addr #1",
+        "probe": "integer_long-retry1",
+        "source": "evidence/probes/integer_long-retry1/integer_long.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.add_sat.u",
+    "observations": [
+      {
+        "symbol": "air.add_sat.u.i32",
+        "declaration": "declare i32 @air.add_sat.u.i32(i32, i32) local_unnamed_addr #1",
+        "probe": "integer_uint-retry1",
+        "source": "evidence/probes/integer_uint-retry1/integer_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.add_sat.u.v4i16",
+        "declaration": "declare <4 x i16> @air.add_sat.u.v4i16(<4 x i16>, <4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_ushort4-retry1",
+        "source": "evidence/probes/integer_ushort4-retry1/integer_ushort4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.add_sat.u.i64",
+        "declaration": "declare i64 @air.add_sat.u.i64(i64, i64) local_unnamed_addr #1",
+        "probe": "integer_ulong-retry1",
+        "source": "evidence/probes/integer_ulong-retry1/integer_ulong.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.asin",
+    "observations": [
+      {
+        "symbol": "air.asin.f16",
+        "declaration": "declare half @air.asin.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.asin.v2f16",
+        "declaration": "declare <2 x half> @air.asin.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.asin.v4f16",
+        "declaration": "declare <4 x half> @air.asin.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atan",
+    "observations": [
+      {
+        "symbol": "air.atan.f16",
+        "declaration": "declare half @air.atan.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.atan.v2f16",
+        "declaration": "declare <2 x half> @air.atan.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.atan.v4f16",
+        "declaration": "declare <4 x half> @air.atan.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atan2",
+    "observations": [
+      {
+        "symbol": "air.atan2.f16",
+        "declaration": "declare half @air.atan2.f16(half, half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.atan2.v2f16",
+        "declaration": "declare <2 x half> @air.atan2.v2f16(<2 x half>, <2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.atan2.v4f16",
+        "declaration": "declare <4 x half> @air.atan2.v4f16(<4 x half>, <4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atomic.global.add.s.i32",
+    "observations": [
+      {
+        "symbol": "air.atomic.global.add.s.i32",
+        "declaration": "declare i32 @air.atomic.global.add.s.i32(i32 addrspace(1)* nocapture, i32, i32, i32, i1) local_unnamed_addr #2",
+        "probe": "atomic_int",
+        "source": "evidence/probes/atomic_int/atomic_int.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atomic.global.add.u.i32",
+    "observations": [
+      {
+        "symbol": "air.atomic.global.add.u.i32",
+        "declaration": "declare i32 @air.atomic.global.add.u.i32(i32 addrspace(1)* nocapture, i32, i32, i32, i1) local_unnamed_addr #2",
+        "probe": "atomic_uint",
+        "source": "evidence/probes/atomic_uint/atomic_uint.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atomic.global.cmpxchg.weak.i32",
+    "observations": [
+      {
+        "symbol": "air.atomic.global.cmpxchg.weak.i32",
+        "declaration": "declare i32 @air.atomic.global.cmpxchg.weak.i32(i32 addrspace(1)* nocapture, i32* nocapture, i32, i32, i32, i32, i1) local_unnamed_addr #2",
+        "probe": "atomic_uint",
+        "source": "evidence/probes/atomic_uint/atomic_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.atomic.global.cmpxchg.weak.i32",
+        "declaration": "declare i32 @air.atomic.global.cmpxchg.weak.i32(i32 addrspace(1)* nocapture, i32* nocapture, i32, i32, i32, i32, i1) local_unnamed_addr #2",
+        "probe": "atomic_int",
+        "source": "evidence/probes/atomic_int/atomic_int.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atomic.global.load.i32",
+    "observations": [
+      {
+        "symbol": "air.atomic.global.load.i32",
+        "declaration": "declare i32 @air.atomic.global.load.i32(i32 addrspace(1)* nocapture, i32, i32, i1) local_unnamed_addr #2",
+        "probe": "atomic_uint",
+        "source": "evidence/probes/atomic_uint/atomic_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.atomic.global.load.i32",
+        "declaration": "declare i32 @air.atomic.global.load.i32(i32 addrspace(1)* nocapture, i32, i32, i1) local_unnamed_addr #2",
+        "probe": "atomic_int",
+        "source": "evidence/probes/atomic_int/atomic_int.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atomic.global.store.i32",
+    "observations": [
+      {
+        "symbol": "air.atomic.global.store.i32",
+        "declaration": "declare void @air.atomic.global.store.i32(i32 addrspace(1)* nocapture, i32, i32, i32, i1) local_unnamed_addr #2",
+        "probe": "atomic_uint",
+        "source": "evidence/probes/atomic_uint/atomic_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.atomic.global.store.i32",
+        "declaration": "declare void @air.atomic.global.store.i32(i32 addrspace(1)* nocapture, i32, i32, i32, i1) local_unnamed_addr #2",
+        "probe": "atomic_int",
+        "source": "evidence/probes/atomic_int/atomic_int.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atomic.global.xchg.i32",
+    "observations": [
+      {
+        "symbol": "air.atomic.global.xchg.i32",
+        "declaration": "declare i32 @air.atomic.global.xchg.i32(i32 addrspace(1)* nocapture, i32, i32, i32, i1) local_unnamed_addr #2",
+        "probe": "atomic_uint",
+        "source": "evidence/probes/atomic_uint/atomic_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.atomic.global.xchg.i32",
+        "declaration": "declare i32 @air.atomic.global.xchg.i32(i32 addrspace(1)* nocapture, i32, i32, i32, i1) local_unnamed_addr #2",
+        "probe": "atomic_int",
+        "source": "evidence/probes/atomic_int/atomic_int.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atomic.local.add.u.i32",
+    "observations": [
+      {
+        "symbol": "air.atomic.local.add.u.i32",
+        "declaration": "declare i32 @air.atomic.local.add.u.i32(i32 addrspace(3)* nocapture, i32, i32, i32, i1) local_unnamed_addr #2",
+        "probe": "barriers_threadgroup_atomic",
+        "source": "evidence/probes/barriers_threadgroup_atomic/barriers_threadgroup_atomic.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atomic.local.store.i32",
+    "observations": [
+      {
+        "symbol": "air.atomic.local.store.i32",
+        "declaration": "declare void @air.atomic.local.store.i32(i32 addrspace(3)* nocapture, i32, i32, i32, i1) local_unnamed_addr #2",
+        "probe": "barriers_threadgroup_atomic",
+        "source": "evidence/probes/barriers_threadgroup_atomic/barriers_threadgroup_atomic.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.ceil",
+    "observations": [
+      {
+        "symbol": "air.ceil.f16",
+        "declaration": "declare half @air.ceil.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.ceil.v2f16",
+        "declaration": "declare <2 x half> @air.ceil.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.ceil.v4f16",
+        "declaration": "declare <4 x half> @air.ceil.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.clz",
+    "observations": [
+      {
+        "symbol": "air.clz.i32",
+        "declaration": "declare i32 @air.clz.i32(i32, i1) local_unnamed_addr #1",
+        "probe": "integer_int-retry1",
+        "source": "evidence/probes/integer_int-retry1/integer_int.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.clz.i32",
+        "declaration": "declare i32 @air.clz.i32(i32, i1) local_unnamed_addr #1",
+        "probe": "integer_uint-retry1",
+        "source": "evidence/probes/integer_uint-retry1/integer_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.clz.v4i16",
+        "declaration": "declare <4 x i16> @air.clz.v4i16(<4 x i16>, i1) local_unnamed_addr #1",
+        "probe": "integer_short4-retry1",
+        "source": "evidence/probes/integer_short4-retry1/integer_short4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.clz.v4i16",
+        "declaration": "declare <4 x i16> @air.clz.v4i16(<4 x i16>, i1) local_unnamed_addr #1",
+        "probe": "integer_ushort4-retry1",
+        "source": "evidence/probes/integer_ushort4-retry1/integer_ushort4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.clz.i64",
+        "declaration": "declare i64 @air.clz.i64(i64, i1) local_unnamed_addr #1",
+        "probe": "integer_long-retry1",
+        "source": "evidence/probes/integer_long-retry1/integer_long.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.clz.i64",
+        "declaration": "declare i64 @air.clz.i64(i64, i1) local_unnamed_addr #1",
+        "probe": "integer_ulong-retry1",
+        "source": "evidence/probes/integer_ulong-retry1/integer_ulong.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.convert.f.f32.s.i32",
+    "observations": [
+      {
+        "symbol": "air.convert.f.f32.s.i32",
+        "declaration": "declare float @air.convert.f.f32.s.i32(i32) local_unnamed_addr #1",
+        "probe": "tensor_read-retry1",
+        "source": "evidence/probes/tensor_read-retry1/tensor_read.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.convert.f.f32.u.i32",
+    "observations": [
+      {
+        "symbol": "air.convert.f.f32.u.i32",
+        "declaration": "declare float @air.convert.f.f32.u.i32(i32) local_unnamed_addr #1",
+        "probe": "texture_sample",
+        "source": "evidence/probes/texture_sample/texture_sample.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.convert.f.f32.u.i32",
+        "declaration": "declare float @air.convert.f.f32.u.i32(i32) local_unnamed_addr #1",
+        "probe": "ray_triangle",
+        "source": "evidence/probes/ray_triangle/ray_triangle.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.cos",
+    "observations": [
+      {
+        "symbol": "air.cos.f16",
+        "declaration": "declare half @air.cos.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.cos.v2f16",
+        "declaration": "declare <2 x half> @air.cos.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.cos.v4f16",
+        "declaration": "declare <4 x half> @air.cos.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.cos.f32",
+        "declaration": "declare float @air.cos.f32(float) local_unnamed_addr #1",
+        "probe": "math_precise",
+        "source": "evidence/probes/math_precise/math_precise.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.ctz",
+    "observations": [
+      {
+        "symbol": "air.ctz.i32",
+        "declaration": "declare i32 @air.ctz.i32(i32, i1) local_unnamed_addr #1",
+        "probe": "integer_int-retry1",
+        "source": "evidence/probes/integer_int-retry1/integer_int.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.ctz.i32",
+        "declaration": "declare i32 @air.ctz.i32(i32, i1) local_unnamed_addr #1",
+        "probe": "integer_uint-retry1",
+        "source": "evidence/probes/integer_uint-retry1/integer_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.ctz.v4i16",
+        "declaration": "declare <4 x i16> @air.ctz.v4i16(<4 x i16>, i1) local_unnamed_addr #1",
+        "probe": "integer_short4-retry1",
+        "source": "evidence/probes/integer_short4-retry1/integer_short4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.ctz.v4i16",
+        "declaration": "declare <4 x i16> @air.ctz.v4i16(<4 x i16>, i1) local_unnamed_addr #1",
+        "probe": "integer_ushort4-retry1",
+        "source": "evidence/probes/integer_ushort4-retry1/integer_ushort4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.ctz.i64",
+        "declaration": "declare i64 @air.ctz.i64(i64, i1) local_unnamed_addr #1",
+        "probe": "integer_long-retry1",
+        "source": "evidence/probes/integer_long-retry1/integer_long.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.ctz.i64",
+        "declaration": "declare i64 @air.ctz.i64(i64, i1) local_unnamed_addr #1",
+        "probe": "integer_ulong-retry1",
+        "source": "evidence/probes/integer_ulong-retry1/integer_ulong.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.dot.v3f32",
+    "observations": [
+      {
+        "symbol": "air.dot.v3f32",
+        "declaration": "declare float @air.dot.v3f32(<3 x float>, <3 x float>) local_unnamed_addr #1",
+        "probe": "geometric",
+        "source": "evidence/probes/geometric/geometric.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.exp",
+    "observations": [
+      {
+        "symbol": "air.exp.f16",
+        "declaration": "declare half @air.exp.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.exp.v2f16",
+        "declaration": "declare <2 x half> @air.exp.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.exp.v4f16",
+        "declaration": "declare <4 x half> @air.exp.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.exp.f32",
+        "declaration": "declare float @air.exp.f32(float) local_unnamed_addr #1",
+        "probe": "math_precise",
+        "source": "evidence/probes/math_precise/math_precise.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.exp2",
+    "observations": [
+      {
+        "symbol": "air.exp2.f16",
+        "declaration": "declare half @air.exp2.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.exp2.v2f16",
+        "declaration": "declare <2 x half> @air.exp2.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.exp2.v4f16",
+        "declaration": "declare <4 x half> @air.exp2.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_acos",
+    "observations": [
+      {
+        "symbol": "air.fast_acos.f32",
+        "declaration": "declare float @air.fast_acos.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_acos.v2f32",
+        "declaration": "declare <2 x float> @air.fast_acos.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_acos.v4f32",
+        "declaration": "declare <4 x float> @air.fast_acos.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_asin",
+    "observations": [
+      {
+        "symbol": "air.fast_asin.f32",
+        "declaration": "declare float @air.fast_asin.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_asin.v2f32",
+        "declaration": "declare <2 x float> @air.fast_asin.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_asin.v4f32",
+        "declaration": "declare <4 x float> @air.fast_asin.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_atan",
+    "observations": [
+      {
+        "symbol": "air.fast_atan.f32",
+        "declaration": "declare float @air.fast_atan.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_atan.v2f32",
+        "declaration": "declare <2 x float> @air.fast_atan.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_atan.v4f32",
+        "declaration": "declare <4 x float> @air.fast_atan.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_atan2",
+    "observations": [
+      {
+        "symbol": "air.fast_atan2.f32",
+        "declaration": "declare float @air.fast_atan2.f32(float, float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_atan2.v2f32",
+        "declaration": "declare <2 x float> @air.fast_atan2.v2f32(<2 x float>, <2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_atan2.v4f32",
+        "declaration": "declare <4 x float> @air.fast_atan2.v4f32(<4 x float>, <4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_ceil",
+    "observations": [
+      {
+        "symbol": "air.fast_ceil.f32",
+        "declaration": "declare float @air.fast_ceil.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_ceil.v2f32",
+        "declaration": "declare <2 x float> @air.fast_ceil.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_ceil.v4f32",
+        "declaration": "declare <4 x float> @air.fast_ceil.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_cos",
+    "observations": [
+      {
+        "symbol": "air.fast_cos.f32",
+        "declaration": "declare float @air.fast_cos.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_cos.v2f32",
+        "declaration": "declare <2 x float> @air.fast_cos.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_cos.v4f32",
+        "declaration": "declare <4 x float> @air.fast_cos.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_exp",
+    "observations": [
+      {
+        "symbol": "air.fast_exp.f32",
+        "declaration": "declare float @air.fast_exp.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_exp.v2f32",
+        "declaration": "declare <2 x float> @air.fast_exp.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_exp.v4f32",
+        "declaration": "declare <4 x float> @air.fast_exp.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_exp2",
+    "observations": [
+      {
+        "symbol": "air.fast_exp2.f32",
+        "declaration": "declare float @air.fast_exp2.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_exp2.v2f32",
+        "declaration": "declare <2 x float> @air.fast_exp2.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_exp2.v4f32",
+        "declaration": "declare <4 x float> @air.fast_exp2.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_floor",
+    "observations": [
+      {
+        "symbol": "air.fast_floor.f32",
+        "declaration": "declare float @air.fast_floor.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_floor.v2f32",
+        "declaration": "declare <2 x float> @air.fast_floor.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_floor.v4f32",
+        "declaration": "declare <4 x float> @air.fast_floor.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_fmax",
+    "observations": [
+      {
+        "symbol": "air.fast_fmax.f32",
+        "declaration": "declare float @air.fast_fmax.f32(float, float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_fmax.v2f32",
+        "declaration": "declare <2 x float> @air.fast_fmax.v2f32(<2 x float>, <2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_fmax.v4f32",
+        "declaration": "declare <4 x float> @air.fast_fmax.v4f32(<4 x float>, <4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_fmin",
+    "observations": [
+      {
+        "symbol": "air.fast_fmin.f32",
+        "declaration": "declare float @air.fast_fmin.f32(float, float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_fmin.v2f32",
+        "declaration": "declare <2 x float> @air.fast_fmin.v2f32(<2 x float>, <2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_fmin.v4f32",
+        "declaration": "declare <4 x float> @air.fast_fmin.v4f32(<4 x float>, <4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_fmod",
+    "observations": [
+      {
+        "symbol": "air.fast_fmod.f32",
+        "declaration": "declare float @air.fast_fmod.f32(float, float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_fmod.v2f32",
+        "declaration": "declare <2 x float> @air.fast_fmod.v2f32(<2 x float>, <2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_fmod.v4f32",
+        "declaration": "declare <4 x float> @air.fast_fmod.v4f32(<4 x float>, <4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_log",
+    "observations": [
+      {
+        "symbol": "air.fast_log.f32",
+        "declaration": "declare float @air.fast_log.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_log.v2f32",
+        "declaration": "declare <2 x float> @air.fast_log.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_log.v4f32",
+        "declaration": "declare <4 x float> @air.fast_log.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_log2",
+    "observations": [
+      {
+        "symbol": "air.fast_log2.f32",
+        "declaration": "declare float @air.fast_log2.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_log2.v2f32",
+        "declaration": "declare <2 x float> @air.fast_log2.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_log2.v4f32",
+        "declaration": "declare <4 x float> @air.fast_log2.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_pow",
+    "observations": [
+      {
+        "symbol": "air.fast_pow.f32",
+        "declaration": "declare float @air.fast_pow.f32(float, float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_pow.v2f32",
+        "declaration": "declare <2 x float> @air.fast_pow.v2f32(<2 x float>, <2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_pow.v4f32",
+        "declaration": "declare <4 x float> @air.fast_pow.v4f32(<4 x float>, <4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_round",
+    "observations": [
+      {
+        "symbol": "air.fast_round.f32",
+        "declaration": "declare float @air.fast_round.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_round.v2f32",
+        "declaration": "declare <2 x float> @air.fast_round.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_round.v4f32",
+        "declaration": "declare <4 x float> @air.fast_round.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_rsqrt",
+    "observations": [
+      {
+        "symbol": "air.fast_rsqrt.f32",
+        "declaration": "declare float @air.fast_rsqrt.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_rsqrt.v2f32",
+        "declaration": "declare <2 x float> @air.fast_rsqrt.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_rsqrt.v4f32",
+        "declaration": "declare <4 x float> @air.fast_rsqrt.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_rsqrt.f32",
+        "declaration": "declare float @air.fast_rsqrt.f32(float) local_unnamed_addr #1",
+        "probe": "geometric",
+        "source": "evidence/probes/geometric/geometric.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_sin",
+    "observations": [
+      {
+        "symbol": "air.fast_sin.f32",
+        "declaration": "declare float @air.fast_sin.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_sin.v2f32",
+        "declaration": "declare <2 x float> @air.fast_sin.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_sin.v4f32",
+        "declaration": "declare <4 x float> @air.fast_sin.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_sqrt",
+    "observations": [
+      {
+        "symbol": "air.fast_sqrt.f32",
+        "declaration": "declare float @air.fast_sqrt.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_sqrt.v2f32",
+        "declaration": "declare <2 x float> @air.fast_sqrt.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_sqrt.v4f32",
+        "declaration": "declare <4 x float> @air.fast_sqrt.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_sqrt.f32",
+        "declaration": "declare float @air.fast_sqrt.f32(float) local_unnamed_addr #1",
+        "probe": "geometric",
+        "source": "evidence/probes/geometric/geometric.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_tan",
+    "observations": [
+      {
+        "symbol": "air.fast_tan.f32",
+        "declaration": "declare float @air.fast_tan.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_tan.v2f32",
+        "declaration": "declare <2 x float> @air.fast_tan.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_tan.v4f32",
+        "declaration": "declare <4 x float> @air.fast_tan.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fast_trunc",
+    "observations": [
+      {
+        "symbol": "air.fast_trunc.f32",
+        "declaration": "declare float @air.fast_trunc.f32(float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_trunc.v2f32",
+        "declaration": "declare <2 x float> @air.fast_trunc.v2f32(<2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fast_trunc.v4f32",
+        "declaration": "declare <4 x float> @air.fast_trunc.v4f32(<4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.floor",
+    "observations": [
+      {
+        "symbol": "air.floor.f16",
+        "declaration": "declare half @air.floor.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.floor.v2f16",
+        "declaration": "declare <2 x half> @air.floor.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.floor.v4f16",
+        "declaration": "declare <4 x half> @air.floor.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fma",
+    "observations": [
+      {
+        "symbol": "air.fma.f32",
+        "declaration": "declare float @air.fma.f32(float, float, float) local_unnamed_addr #1",
+        "probe": "math_float",
+        "source": "evidence/probes/math_float/math_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fma.f16",
+        "declaration": "declare half @air.fma.f16(half, half, half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fma.v2f32",
+        "declaration": "declare <2 x float> @air.fma.v2f32(<2 x float>, <2 x float>, <2 x float>) local_unnamed_addr #1",
+        "probe": "math_float2",
+        "source": "evidence/probes/math_float2/math_float2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fma.v2f16",
+        "declaration": "declare <2 x half> @air.fma.v2f16(<2 x half>, <2 x half>, <2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fma.v4f32",
+        "declaration": "declare <4 x float> @air.fma.v4f32(<4 x float>, <4 x float>, <4 x float>) local_unnamed_addr #1",
+        "probe": "math_float4",
+        "source": "evidence/probes/math_float4/math_float4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fma.v4f16",
+        "declaration": "declare <4 x half> @air.fma.v4f16(<4 x half>, <4 x half>, <4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fmax",
+    "observations": [
+      {
+        "symbol": "air.fmax.f16",
+        "declaration": "declare half @air.fmax.f16(half, half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fmax.v2f16",
+        "declaration": "declare <2 x half> @air.fmax.v2f16(<2 x half>, <2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fmax.v4f16",
+        "declaration": "declare <4 x half> @air.fmax.v4f16(<4 x half>, <4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fmin",
+    "observations": [
+      {
+        "symbol": "air.fmin.f16",
+        "declaration": "declare half @air.fmin.f16(half, half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fmin.v2f16",
+        "declaration": "declare <2 x half> @air.fmin.v2f16(<2 x half>, <2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fmin.v4f16",
+        "declaration": "declare <4 x half> @air.fmin.v4f16(<4 x half>, <4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.fmod",
+    "observations": [
+      {
+        "symbol": "air.fmod.f16",
+        "declaration": "declare half @air.fmod.f16(half, half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fmod.v2f16",
+        "declaration": "declare <2 x half> @air.fmod.v2f16(<2 x half>, <2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.fmod.v4f16",
+        "declaration": "declare <4 x half> @air.fmod.v4f16(<4 x half>, <4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.gather_texture_2d",
+    "observations": [
+      {
+        "symbol": "air.gather_texture_2d.v4f32",
+        "declaration": "declare { <4 x float>, i8 } @air.gather_texture_2d.v4f32(%struct._texture_2d_t addrspace(1)* nocapture readonly, %struct._sampler_t addrspace(2)* nocapture readonly, <2 x float>, i1, <2 x i32>, i32, i32) local_unnamed_addr #3",
+        "probe": "texture_sample",
+        "source": "evidence/probes/texture_sample/texture_sample.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.get_height_texture_2d",
+    "observations": [
+      {
+        "symbol": "air.get_height_texture_2d",
+        "declaration": "declare i32 @air.get_height_texture_2d(%struct._texture_2d_t addrspace(1)* nocapture readonly, i32) local_unnamed_addr #3",
+        "probe": "texture_sample",
+        "source": "evidence/probes/texture_sample/texture_sample.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.get_num_mip_levels_texture_2d",
+    "observations": [
+      {
+        "symbol": "air.get_num_mip_levels_texture_2d",
+        "declaration": "declare i32 @air.get_num_mip_levels_texture_2d(%struct._texture_2d_t addrspace(1)* nocapture readonly) local_unnamed_addr #3",
+        "probe": "texture_sample",
+        "source": "evidence/probes/texture_sample/texture_sample.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.get_width_texture_2d",
+    "observations": [
+      {
+        "symbol": "air.get_width_texture_2d",
+        "declaration": "declare i32 @air.get_width_texture_2d(%struct._texture_2d_t addrspace(1)* nocapture readonly, i32) local_unnamed_addr #3",
+        "probe": "texture_sample",
+        "source": "evidence/probes/texture_sample/texture_sample.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.log",
+    "observations": [
+      {
+        "symbol": "air.log.f16",
+        "declaration": "declare half @air.log.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.log.v2f16",
+        "declaration": "declare <2 x half> @air.log.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.log.v4f16",
+        "declaration": "declare <4 x half> @air.log.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.log.f32",
+        "declaration": "declare float @air.log.f32(float) local_unnamed_addr #1",
+        "probe": "math_precise",
+        "source": "evidence/probes/math_precise/math_precise.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.log2",
+    "observations": [
+      {
+        "symbol": "air.log2.f16",
+        "declaration": "declare half @air.log2.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.log2.v2f16",
+        "declaration": "declare <2 x half> @air.log2.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.log2.v4f16",
+        "declaration": "declare <4 x half> @air.log2.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.max.s",
+    "observations": [
+      {
+        "symbol": "air.max.s.i32",
+        "declaration": "declare i32 @air.max.s.i32(i32, i32) local_unnamed_addr #1",
+        "probe": "integer_int-retry1",
+        "source": "evidence/probes/integer_int-retry1/integer_int.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.max.s.v4i16",
+        "declaration": "declare <4 x i16> @air.max.s.v4i16(<4 x i16>, <4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_short4-retry1",
+        "source": "evidence/probes/integer_short4-retry1/integer_short4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.max.s.i64",
+        "declaration": "declare i64 @air.max.s.i64(i64, i64) local_unnamed_addr #1",
+        "probe": "integer_long-retry1",
+        "source": "evidence/probes/integer_long-retry1/integer_long.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.max.u",
+    "observations": [
+      {
+        "symbol": "air.max.u.i32",
+        "declaration": "declare i32 @air.max.u.i32(i32, i32) local_unnamed_addr #1",
+        "probe": "integer_uint-retry1",
+        "source": "evidence/probes/integer_uint-retry1/integer_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.max.u.v4i16",
+        "declaration": "declare <4 x i16> @air.max.u.v4i16(<4 x i16>, <4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_ushort4-retry1",
+        "source": "evidence/probes/integer_ushort4-retry1/integer_ushort4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.max.u.i64",
+        "declaration": "declare i64 @air.max.u.i64(i64, i64) local_unnamed_addr #1",
+        "probe": "integer_ulong-retry1",
+        "source": "evidence/probes/integer_ulong-retry1/integer_ulong.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.min.s",
+    "observations": [
+      {
+        "symbol": "air.min.s.i32",
+        "declaration": "declare i32 @air.min.s.i32(i32, i32) local_unnamed_addr #1",
+        "probe": "integer_int-retry1",
+        "source": "evidence/probes/integer_int-retry1/integer_int.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.min.s.v4i16",
+        "declaration": "declare <4 x i16> @air.min.s.v4i16(<4 x i16>, <4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_short4-retry1",
+        "source": "evidence/probes/integer_short4-retry1/integer_short4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.min.s.i64",
+        "declaration": "declare i64 @air.min.s.i64(i64, i64) local_unnamed_addr #1",
+        "probe": "integer_long-retry1",
+        "source": "evidence/probes/integer_long-retry1/integer_long.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.min.u",
+    "observations": [
+      {
+        "symbol": "air.min.u.i32",
+        "declaration": "declare i32 @air.min.u.i32(i32, i32) local_unnamed_addr #1",
+        "probe": "integer_uint-retry1",
+        "source": "evidence/probes/integer_uint-retry1/integer_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.min.u.v4i16",
+        "declaration": "declare <4 x i16> @air.min.u.v4i16(<4 x i16>, <4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_ushort4-retry1",
+        "source": "evidence/probes/integer_ushort4-retry1/integer_ushort4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.min.u.i64",
+        "declaration": "declare i64 @air.min.u.i64(i64, i64) local_unnamed_addr #1",
+        "probe": "integer_ulong-retry1",
+        "source": "evidence/probes/integer_ulong-retry1/integer_ulong.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.mul_hi.s",
+    "observations": [
+      {
+        "symbol": "air.mul_hi.s.i32",
+        "declaration": "declare i32 @air.mul_hi.s.i32(i32, i32) local_unnamed_addr #1",
+        "probe": "integer_int-retry1",
+        "source": "evidence/probes/integer_int-retry1/integer_int.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.mul_hi.s.v4i16",
+        "declaration": "declare <4 x i16> @air.mul_hi.s.v4i16(<4 x i16>, <4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_short4-retry1",
+        "source": "evidence/probes/integer_short4-retry1/integer_short4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.mul_hi.s.i64",
+        "declaration": "declare i64 @air.mul_hi.s.i64(i64, i64) local_unnamed_addr #1",
+        "probe": "integer_long-retry1",
+        "source": "evidence/probes/integer_long-retry1/integer_long.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.mul_hi.u",
+    "observations": [
+      {
+        "symbol": "air.mul_hi.u.i32",
+        "declaration": "declare i32 @air.mul_hi.u.i32(i32, i32) local_unnamed_addr #1",
+        "probe": "integer_uint-retry1",
+        "source": "evidence/probes/integer_uint-retry1/integer_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.mul_hi.u.v4i16",
+        "declaration": "declare <4 x i16> @air.mul_hi.u.v4i16(<4 x i16>, <4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_ushort4-retry1",
+        "source": "evidence/probes/integer_ushort4-retry1/integer_ushort4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.mul_hi.u.i64",
+        "declaration": "declare i64 @air.mul_hi.u.i64(i64, i64) local_unnamed_addr #1",
+        "probe": "integer_ulong-retry1",
+        "source": "evidence/probes/integer_ulong-retry1/integer_ulong.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.popcount",
+    "observations": [
+      {
+        "symbol": "air.popcount.i32",
+        "declaration": "declare i32 @air.popcount.i32(i32) local_unnamed_addr #1",
+        "probe": "integer_int-retry1",
+        "source": "evidence/probes/integer_int-retry1/integer_int.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.popcount.i32",
+        "declaration": "declare i32 @air.popcount.i32(i32) local_unnamed_addr #1",
+        "probe": "integer_uint-retry1",
+        "source": "evidence/probes/integer_uint-retry1/integer_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.popcount.v4i16",
+        "declaration": "declare <4 x i16> @air.popcount.v4i16(<4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_short4-retry1",
+        "source": "evidence/probes/integer_short4-retry1/integer_short4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.popcount.v4i16",
+        "declaration": "declare <4 x i16> @air.popcount.v4i16(<4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_ushort4-retry1",
+        "source": "evidence/probes/integer_ushort4-retry1/integer_ushort4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.popcount.i64",
+        "declaration": "declare i64 @air.popcount.i64(i64) local_unnamed_addr #1",
+        "probe": "integer_long-retry1",
+        "source": "evidence/probes/integer_long-retry1/integer_long.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.popcount.i64",
+        "declaration": "declare i64 @air.popcount.i64(i64) local_unnamed_addr #1",
+        "probe": "integer_ulong-retry1",
+        "source": "evidence/probes/integer_ulong-retry1/integer_ulong.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.pow",
+    "observations": [
+      {
+        "symbol": "air.pow.f16",
+        "declaration": "declare half @air.pow.f16(half, half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.pow.v2f16",
+        "declaration": "declare <2 x half> @air.pow.v2f16(<2 x half>, <2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.pow.v4f16",
+        "declaration": "declare <4 x half> @air.pow.v4f16(<4 x half>, <4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.read_texture_2d.u",
+    "observations": [
+      {
+        "symbol": "air.read_texture_2d.u.v4i32",
+        "declaration": "declare { <4 x i32>, i8 } @air.read_texture_2d.u.v4i32(%struct._texture_2d_t addrspace(1)* nocapture readonly, %struct._sampler_t addrspace(2)*, <2 x i32>, <2 x i32>, i32, i32) local_unnamed_addr #2",
+        "probe": "texture_read_write",
+        "source": "evidence/probes/texture_read_write/texture_read_write.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.rotate",
+    "observations": [
+      {
+        "symbol": "air.rotate.i32",
+        "declaration": "declare i32 @air.rotate.i32(i32, i32) local_unnamed_addr #1",
+        "probe": "integer_int-retry1",
+        "source": "evidence/probes/integer_int-retry1/integer_int.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.rotate.i32",
+        "declaration": "declare i32 @air.rotate.i32(i32, i32) local_unnamed_addr #1",
+        "probe": "integer_uint-retry1",
+        "source": "evidence/probes/integer_uint-retry1/integer_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.rotate.v4i16",
+        "declaration": "declare <4 x i16> @air.rotate.v4i16(<4 x i16>, <4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_short4-retry1",
+        "source": "evidence/probes/integer_short4-retry1/integer_short4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.rotate.v4i16",
+        "declaration": "declare <4 x i16> @air.rotate.v4i16(<4 x i16>, <4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_ushort4-retry1",
+        "source": "evidence/probes/integer_ushort4-retry1/integer_ushort4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.rotate.i64",
+        "declaration": "declare i64 @air.rotate.i64(i64, i64) local_unnamed_addr #1",
+        "probe": "integer_long-retry1",
+        "source": "evidence/probes/integer_long-retry1/integer_long.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.rotate.i64",
+        "declaration": "declare i64 @air.rotate.i64(i64, i64) local_unnamed_addr #1",
+        "probe": "integer_ulong-retry1",
+        "source": "evidence/probes/integer_ulong-retry1/integer_ulong.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.round",
+    "observations": [
+      {
+        "symbol": "air.round.f16",
+        "declaration": "declare half @air.round.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.round.v2f16",
+        "declaration": "declare <2 x half> @air.round.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.round.v4f16",
+        "declaration": "declare <4 x half> @air.round.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.rsqrt",
+    "observations": [
+      {
+        "symbol": "air.rsqrt.f16",
+        "declaration": "declare half @air.rsqrt.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.rsqrt.v2f16",
+        "declaration": "declare <2 x half> @air.rsqrt.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.rsqrt.v4f16",
+        "declaration": "declare <4 x half> @air.rsqrt.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.rsqrt.f32",
+        "declaration": "declare float @air.rsqrt.f32(float) local_unnamed_addr #1",
+        "probe": "math_precise",
+        "source": "evidence/probes/math_precise/math_precise.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.sample_compare_depth_2d.f32",
+    "observations": [
+      {
+        "symbol": "air.sample_compare_depth_2d.f32",
+        "declaration": "declare { float, i8 } @air.sample_compare_depth_2d.f32(%struct._depth_2d_t addrspace(1)* nocapture readonly, %struct._sampler_t addrspace(2)* nocapture readonly, i32, <2 x float>, float, i1, <2 x i32>, i1, float, float, i32) local_unnamed_addr #1",
+        "probe": "texture_depth",
+        "source": "evidence/probes/texture_depth/texture_depth.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.sample_texture_2d",
+    "observations": [
+      {
+        "symbol": "air.sample_texture_2d.v4f32",
+        "declaration": "declare { <4 x float>, i8 } @air.sample_texture_2d.v4f32(%struct._texture_2d_t addrspace(1)* nocapture readonly, %struct._sampler_t addrspace(2)* nocapture readonly, <2 x float>, i1, <2 x i32>, i1, float, float, i32) local_unnamed_addr #2",
+        "probe": "texture_sample",
+        "source": "evidence/probes/texture_sample/texture_sample.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.sample_texture_3d",
+    "observations": [
+      {
+        "symbol": "air.sample_texture_3d.v4f16",
+        "declaration": "declare { <4 x half>, i8 } @air.sample_texture_3d.v4f16(%struct._texture_3d_t addrspace(1)* nocapture readonly, %struct._sampler_t addrspace(2)* nocapture readonly, <3 x float>, i1, <3 x i32>, i1, float, float, i32) local_unnamed_addr #1",
+        "probe": "texture_half3d",
+        "source": "evidence/probes/texture_half3d/texture_half3d.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.sin",
+    "observations": [
+      {
+        "symbol": "air.sin.f16",
+        "declaration": "declare half @air.sin.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.sin.v2f16",
+        "declaration": "declare <2 x half> @air.sin.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.sin.v4f16",
+        "declaration": "declare <4 x half> @air.sin.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.sin.f32",
+        "declaration": "declare float @air.sin.f32(float) local_unnamed_addr #1",
+        "probe": "math_precise",
+        "source": "evidence/probes/math_precise/math_precise.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.sqrt",
+    "observations": [
+      {
+        "symbol": "air.sqrt.f16",
+        "declaration": "declare half @air.sqrt.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.sqrt.v2f16",
+        "declaration": "declare <2 x half> @air.sqrt.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.sqrt.v4f16",
+        "declaration": "declare <4 x half> @air.sqrt.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.sqrt.f32",
+        "declaration": "declare float @air.sqrt.f32(float) local_unnamed_addr #1",
+        "probe": "math_precise",
+        "source": "evidence/probes/math_precise/math_precise.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.sub_sat.s",
+    "observations": [
+      {
+        "symbol": "air.sub_sat.s.i32",
+        "declaration": "declare i32 @air.sub_sat.s.i32(i32, i32) local_unnamed_addr #1",
+        "probe": "integer_int-retry1",
+        "source": "evidence/probes/integer_int-retry1/integer_int.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.sub_sat.s.v4i16",
+        "declaration": "declare <4 x i16> @air.sub_sat.s.v4i16(<4 x i16>, <4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_short4-retry1",
+        "source": "evidence/probes/integer_short4-retry1/integer_short4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.sub_sat.s.i64",
+        "declaration": "declare i64 @air.sub_sat.s.i64(i64, i64) local_unnamed_addr #1",
+        "probe": "integer_long-retry1",
+        "source": "evidence/probes/integer_long-retry1/integer_long.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.sub_sat.u",
+    "observations": [
+      {
+        "symbol": "air.sub_sat.u.i32",
+        "declaration": "declare i32 @air.sub_sat.u.i32(i32, i32) local_unnamed_addr #1",
+        "probe": "integer_uint-retry1",
+        "source": "evidence/probes/integer_uint-retry1/integer_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.sub_sat.u.v4i16",
+        "declaration": "declare <4 x i16> @air.sub_sat.u.v4i16(<4 x i16>, <4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_ushort4-retry1",
+        "source": "evidence/probes/integer_ushort4-retry1/integer_ushort4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.sub_sat.u.i64",
+        "declaration": "declare i64 @air.sub_sat.u.i64(i64, i64) local_unnamed_addr #1",
+        "probe": "integer_ulong-retry1",
+        "source": "evidence/probes/integer_ulong-retry1/integer_ulong.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.tan",
+    "observations": [
+      {
+        "symbol": "air.tan.f16",
+        "declaration": "declare half @air.tan.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.tan.v2f16",
+        "declaration": "declare <2 x half> @air.tan.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.tan.v4f16",
+        "declaration": "declare <4 x half> @air.tan.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.trunc",
+    "observations": [
+      {
+        "symbol": "air.trunc.f16",
+        "declaration": "declare half @air.trunc.f16(half) local_unnamed_addr #1",
+        "probe": "math_half",
+        "source": "evidence/probes/math_half/math_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.trunc.v2f16",
+        "declaration": "declare <2 x half> @air.trunc.v2f16(<2 x half>) local_unnamed_addr #1",
+        "probe": "math_half2",
+        "source": "evidence/probes/math_half2/math_half2.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.trunc.v4f16",
+        "declaration": "declare <4 x half> @air.trunc.v4f16(<4 x half>) local_unnamed_addr #1",
+        "probe": "math_half4",
+        "source": "evidence/probes/math_half4/math_half4.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.wg.barrier",
+    "observations": [
+      {
+        "symbol": "air.wg.barrier",
+        "declaration": "declare void @air.wg.barrier(i32, i32) local_unnamed_addr #1",
+        "probe": "barriers_threadgroup_atomic",
+        "source": "evidence/probes/barriers_threadgroup_atomic/barriers_threadgroup_atomic.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.write_texture_2d.u",
+    "observations": [
+      {
+        "symbol": "air.write_texture_2d.u.v4i32",
+        "declaration": "declare void @air.write_texture_2d.u.v4i32(%struct._texture_2d_t addrspace(1)* nocapture, <2 x i32>, <4 x i32>, i32, i32) local_unnamed_addr #3",
+        "probe": "texture_read_write",
+        "source": "evidence/probes/texture_read_write/texture_read_write.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.convert.f.f32.u.i1",
+    "observations": [
+      {
+        "symbol": "air.convert.f.f32.u.i1",
+        "declaration": "declare float @air.convert.f.f32.u.i1(i1) local_unnamed_addr #2",
+        "probe": "atomic_float",
+        "source": "evidence/probes/atomic_float/atomic_float.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.reverse_bits",
+    "observations": [
+      {
+        "symbol": "air.reverse_bits.i32",
+        "declaration": "declare i32 @air.reverse_bits.i32(i32) local_unnamed_addr #1",
+        "probe": "integer_int-retry1",
+        "source": "evidence/probes/integer_int-retry1/integer_int.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.reverse_bits.i32",
+        "declaration": "declare i32 @air.reverse_bits.i32(i32) local_unnamed_addr #1",
+        "probe": "integer_uint-retry1",
+        "source": "evidence/probes/integer_uint-retry1/integer_uint.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.reverse_bits.v4i16",
+        "declaration": "declare <4 x i16> @air.reverse_bits.v4i16(<4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_short4-retry1",
+        "source": "evidence/probes/integer_short4-retry1/integer_short4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.reverse_bits.v4i16",
+        "declaration": "declare <4 x i16> @air.reverse_bits.v4i16(<4 x i16>) local_unnamed_addr #1",
+        "probe": "integer_ushort4-retry1",
+        "source": "evidence/probes/integer_ushort4-retry1/integer_ushort4.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.reverse_bits.i64",
+        "declaration": "declare i64 @air.reverse_bits.i64(i64) local_unnamed_addr #1",
+        "probe": "integer_long-retry1",
+        "source": "evidence/probes/integer_long-retry1/integer_long.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.reverse_bits.i64",
+        "declaration": "declare i64 @air.reverse_bits.i64(i64) local_unnamed_addr #1",
+        "probe": "integer_ulong-retry1",
+        "source": "evidence/probes/integer_ulong-retry1/integer_ulong.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simdgroup.barrier",
+    "observations": [
+      {
+        "symbol": "air.simdgroup.barrier",
+        "declaration": "declare void @air.simdgroup.barrier(i32, i32) local_unnamed_addr #1",
+        "probe": "barriers_threadgroup_atomic",
+        "source": "evidence/probes/barriers_threadgroup_atomic/barriers_threadgroup_atomic.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.quad_shuffle",
+    "observations": [
+      {
+        "symbol": "air.quad_shuffle.f32",
+        "declaration": "declare float @air.quad_shuffle.f32(float, i16) local_unnamed_addr #1",
+        "probe": "simd_float",
+        "source": "evidence/probes/simd_float/simd_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.quad_shuffle.f16",
+        "declaration": "declare half @air.quad_shuffle.f16(half, i16) local_unnamed_addr #1",
+        "probe": "simd_half",
+        "source": "evidence/probes/simd_half/simd_half.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.quad_shuffle.s",
+    "observations": [
+      {
+        "symbol": "air.quad_shuffle.s.i32",
+        "declaration": "declare i32 @air.quad_shuffle.s.i32(i32, i16) local_unnamed_addr #1",
+        "probe": "simd_int",
+        "source": "evidence/probes/simd_int/simd_int.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.quad_shuffle.u",
+    "observations": [
+      {
+        "symbol": "air.quad_shuffle.u.i32",
+        "declaration": "declare i32 @air.quad_shuffle.u.i32(i32, i16) local_unnamed_addr #1",
+        "probe": "simd_uint",
+        "source": "evidence/probes/simd_uint/simd_uint.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_shuffle",
+    "observations": [
+      {
+        "symbol": "air.simd_shuffle.f32",
+        "declaration": "declare float @air.simd_shuffle.f32(float, i16) local_unnamed_addr #1",
+        "probe": "simd_float",
+        "source": "evidence/probes/simd_float/simd_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.simd_shuffle.f16",
+        "declaration": "declare half @air.simd_shuffle.f16(half, i16) local_unnamed_addr #1",
+        "probe": "simd_half",
+        "source": "evidence/probes/simd_half/simd_half.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_shuffle.s",
+    "observations": [
+      {
+        "symbol": "air.simd_shuffle.s.i32",
+        "declaration": "declare i32 @air.simd_shuffle.s.i32(i32, i16) local_unnamed_addr #1",
+        "probe": "simd_int",
+        "source": "evidence/probes/simd_int/simd_int.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_shuffle.u",
+    "observations": [
+      {
+        "symbol": "air.simd_shuffle.u.i32",
+        "declaration": "declare i32 @air.simd_shuffle.u.i32(i32, i16) local_unnamed_addr #1",
+        "probe": "simd_uint",
+        "source": "evidence/probes/simd_uint/simd_uint.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_shuffle_xor",
+    "observations": [
+      {
+        "symbol": "air.simd_shuffle_xor.f32",
+        "declaration": "declare float @air.simd_shuffle_xor.f32(float, i16) local_unnamed_addr #1",
+        "probe": "simd_float",
+        "source": "evidence/probes/simd_float/simd_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.simd_shuffle_xor.f16",
+        "declaration": "declare half @air.simd_shuffle_xor.f16(half, i16) local_unnamed_addr #1",
+        "probe": "simd_half",
+        "source": "evidence/probes/simd_half/simd_half.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_shuffle_xor.s",
+    "observations": [
+      {
+        "symbol": "air.simd_shuffle_xor.s.i32",
+        "declaration": "declare i32 @air.simd_shuffle_xor.s.i32(i32, i16) local_unnamed_addr #1",
+        "probe": "simd_int",
+        "source": "evidence/probes/simd_int/simd_int.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_shuffle_xor.u",
+    "observations": [
+      {
+        "symbol": "air.simd_shuffle_xor.u.i32",
+        "declaration": "declare i32 @air.simd_shuffle_xor.u.i32(i32, i16) local_unnamed_addr #1",
+        "probe": "simd_uint",
+        "source": "evidence/probes/simd_uint/simd_uint.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_all",
+    "observations": [
+      {
+        "symbol": "air.simd_all",
+        "declaration": "declare i1 @air.simd_all(i1) local_unnamed_addr #1",
+        "probe": "simd_vote-retry1",
+        "source": "evidence/probes/simd_vote-retry1/simd_vote.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_any",
+    "observations": [
+      {
+        "symbol": "air.simd_any",
+        "declaration": "declare i1 @air.simd_any(i1) local_unnamed_addr #1",
+        "probe": "simd_vote-retry1",
+        "source": "evidence/probes/simd_vote-retry1/simd_vote.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_ballot",
+    "observations": [
+      {
+        "symbol": "air.simd_ballot.i64",
+        "declaration": "declare i64 @air.simd_ballot.i64(i1) local_unnamed_addr #1",
+        "probe": "simd_vote-retry1",
+        "source": "evidence/probes/simd_vote-retry1/simd_vote.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_max",
+    "observations": [
+      {
+        "symbol": "air.simd_max.f32",
+        "declaration": "declare float @air.simd_max.f32(float) local_unnamed_addr #1",
+        "probe": "simd_float",
+        "source": "evidence/probes/simd_float/simd_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.simd_max.f16",
+        "declaration": "declare half @air.simd_max.f16(half) local_unnamed_addr #1",
+        "probe": "simd_half",
+        "source": "evidence/probes/simd_half/simd_half.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_max.s",
+    "observations": [
+      {
+        "symbol": "air.simd_max.s.i32",
+        "declaration": "declare i32 @air.simd_max.s.i32(i32) local_unnamed_addr #1",
+        "probe": "simd_int",
+        "source": "evidence/probes/simd_int/simd_int.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_max.u",
+    "observations": [
+      {
+        "symbol": "air.simd_max.u.i32",
+        "declaration": "declare i32 @air.simd_max.u.i32(i32) local_unnamed_addr #1",
+        "probe": "simd_uint",
+        "source": "evidence/probes/simd_uint/simd_uint.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_min",
+    "observations": [
+      {
+        "symbol": "air.simd_min.f32",
+        "declaration": "declare float @air.simd_min.f32(float) local_unnamed_addr #1",
+        "probe": "simd_float",
+        "source": "evidence/probes/simd_float/simd_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.simd_min.f16",
+        "declaration": "declare half @air.simd_min.f16(half) local_unnamed_addr #1",
+        "probe": "simd_half",
+        "source": "evidence/probes/simd_half/simd_half.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_min.s",
+    "observations": [
+      {
+        "symbol": "air.simd_min.s.i32",
+        "declaration": "declare i32 @air.simd_min.s.i32(i32) local_unnamed_addr #1",
+        "probe": "simd_int",
+        "source": "evidence/probes/simd_int/simd_int.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_min.u",
+    "observations": [
+      {
+        "symbol": "air.simd_min.u.i32",
+        "declaration": "declare i32 @air.simd_min.u.i32(i32) local_unnamed_addr #1",
+        "probe": "simd_uint",
+        "source": "evidence/probes/simd_uint/simd_uint.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_prefix_exclusive_sum",
+    "observations": [
+      {
+        "symbol": "air.simd_prefix_exclusive_sum.f32",
+        "declaration": "declare float @air.simd_prefix_exclusive_sum.f32(float) local_unnamed_addr #1",
+        "probe": "simd_float",
+        "source": "evidence/probes/simd_float/simd_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.simd_prefix_exclusive_sum.f16",
+        "declaration": "declare half @air.simd_prefix_exclusive_sum.f16(half) local_unnamed_addr #1",
+        "probe": "simd_half",
+        "source": "evidence/probes/simd_half/simd_half.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_prefix_exclusive_sum.s",
+    "observations": [
+      {
+        "symbol": "air.simd_prefix_exclusive_sum.s.i32",
+        "declaration": "declare i32 @air.simd_prefix_exclusive_sum.s.i32(i32) local_unnamed_addr #1",
+        "probe": "simd_int",
+        "source": "evidence/probes/simd_int/simd_int.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_prefix_exclusive_sum.u",
+    "observations": [
+      {
+        "symbol": "air.simd_prefix_exclusive_sum.u.i32",
+        "declaration": "declare i32 @air.simd_prefix_exclusive_sum.u.i32(i32) local_unnamed_addr #1",
+        "probe": "simd_uint",
+        "source": "evidence/probes/simd_uint/simd_uint.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_prefix_inclusive_sum",
+    "observations": [
+      {
+        "symbol": "air.simd_prefix_inclusive_sum.f32",
+        "declaration": "declare float @air.simd_prefix_inclusive_sum.f32(float) local_unnamed_addr #1",
+        "probe": "simd_float",
+        "source": "evidence/probes/simd_float/simd_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.simd_prefix_inclusive_sum.f16",
+        "declaration": "declare half @air.simd_prefix_inclusive_sum.f16(half) local_unnamed_addr #1",
+        "probe": "simd_half",
+        "source": "evidence/probes/simd_half/simd_half.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_prefix_inclusive_sum.s",
+    "observations": [
+      {
+        "symbol": "air.simd_prefix_inclusive_sum.s.i32",
+        "declaration": "declare i32 @air.simd_prefix_inclusive_sum.s.i32(i32) local_unnamed_addr #1",
+        "probe": "simd_int",
+        "source": "evidence/probes/simd_int/simd_int.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_prefix_inclusive_sum.u",
+    "observations": [
+      {
+        "symbol": "air.simd_prefix_inclusive_sum.u.i32",
+        "declaration": "declare i32 @air.simd_prefix_inclusive_sum.u.i32(i32) local_unnamed_addr #1",
+        "probe": "simd_uint",
+        "source": "evidence/probes/simd_uint/simd_uint.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_sum",
+    "observations": [
+      {
+        "symbol": "air.simd_sum.f32",
+        "declaration": "declare float @air.simd_sum.f32(float) local_unnamed_addr #1",
+        "probe": "simd_float",
+        "source": "evidence/probes/simd_float/simd_float.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.simd_sum.f16",
+        "declaration": "declare half @air.simd_sum.f16(half) local_unnamed_addr #1",
+        "probe": "simd_half",
+        "source": "evidence/probes/simd_half/simd_half.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_sum.s",
+    "observations": [
+      {
+        "symbol": "air.simd_sum.s.i32",
+        "declaration": "declare i32 @air.simd_sum.s.i32(i32) local_unnamed_addr #1",
+        "probe": "simd_int",
+        "source": "evidence/probes/simd_int/simd_int.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simd_sum.u",
+    "observations": [
+      {
+        "symbol": "air.simd_sum.u.i32",
+        "declaration": "declare i32 @air.simd_sum.u.i32(i32) local_unnamed_addr #1",
+        "probe": "simd_uint",
+        "source": "evidence/probes/simd_uint/simd_uint.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.get_null_intersection_function_table",
+    "observations": [
+      {
+        "symbol": "air.get_null_intersection_function_table",
+        "declaration": "declare %struct._intersection_function_table_t addrspace(1)* @air.get_null_intersection_function_table() local_unnamed_addr #2",
+        "probe": "ray_triangle",
+        "source": "evidence/probes/ray_triangle/ray_triangle.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.intersect.triangle_data",
+    "observations": [
+      {
+        "symbol": "air.intersect.triangle_data",
+        "declaration": "declare { i32, float, i32, i32, i8 addrspace(1)*, <2 x float>, i1 } @air.intersect.triangle_data(<3 x float>, <3 x float>, float, float, %struct._primitive_acceleration_structure_t addrspace(1)* readonly, %struct._intersection_function_table_t addrspace(1)* readonly, i8*, i64, i32, i32, i32, i32, i32, i32, i32, i32, i32, i1) local_unnamed_addr #3",
+        "probe": "ray_triangle",
+        "source": "evidence/probes/ray_triangle/ray_triangle.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simdgroup_matrix_8x8_load",
+    "observations": [
+      {
+        "symbol": "air.simdgroup_matrix_8x8_load.v64f16.p1f16",
+        "declaration": "declare <64 x half> @air.simdgroup_matrix_8x8_load.v64f16.p1f16(half addrspace(1)* nocapture readonly, <2 x i64>, <2 x i64>, <2 x i64>) local_unnamed_addr #1",
+        "probe": "simd_matrix_half",
+        "source": "evidence/probes/simd_matrix_half/simd_matrix_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.simdgroup_matrix_8x8_load.v64f32.p1f32",
+        "declaration": "declare <64 x float> @air.simdgroup_matrix_8x8_load.v64f32.p1f32(float addrspace(1)* nocapture readonly, <2 x i64>, <2 x i64>, <2 x i64>) local_unnamed_addr #1",
+        "probe": "simd_matrix_float",
+        "source": "evidence/probes/simd_matrix_float/simd_matrix_float.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simdgroup_matrix_8x8_multiply_accumulate",
+    "observations": [
+      {
+        "symbol": "air.simdgroup_matrix_8x8_multiply_accumulate.v64f16.v64f16.v64f16.v64f16",
+        "declaration": "declare <64 x half> @air.simdgroup_matrix_8x8_multiply_accumulate.v64f16.v64f16.v64f16.v64f16(<64 x half>, <64 x half>, <64 x half>) local_unnamed_addr #2",
+        "probe": "simd_matrix_half",
+        "source": "evidence/probes/simd_matrix_half/simd_matrix_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.simdgroup_matrix_8x8_multiply_accumulate.v64f32.v64f32.v64f32.v64f32",
+        "declaration": "declare <64 x float> @air.simdgroup_matrix_8x8_multiply_accumulate.v64f32.v64f32.v64f32.v64f32(<64 x float>, <64 x float>, <64 x float>) local_unnamed_addr #2",
+        "probe": "simd_matrix_float",
+        "source": "evidence/probes/simd_matrix_float/simd_matrix_float.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.simdgroup_matrix_8x8_store",
+    "observations": [
+      {
+        "symbol": "air.simdgroup_matrix_8x8_store.v64f16.p1f16",
+        "declaration": "declare void @air.simdgroup_matrix_8x8_store.v64f16.p1f16(<64 x half>, half addrspace(1)* nocapture writeonly, <2 x i64>, <2 x i64>, <2 x i64>) local_unnamed_addr #3",
+        "probe": "simd_matrix_half",
+        "source": "evidence/probes/simd_matrix_half/simd_matrix_half.metal",
+        "called": true
+      },
+      {
+        "symbol": "air.simdgroup_matrix_8x8_store.v64f32.p1f32",
+        "declaration": "declare void @air.simdgroup_matrix_8x8_store.v64f32.p1f32(<64 x float>, float addrspace(1)* nocapture writeonly, <2 x i64>, <2 x i64>, <2 x i64>) local_unnamed_addr #3",
+        "probe": "simd_matrix_float",
+        "source": "evidence/probes/simd_matrix_float/simd_matrix_float.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atomic.global.add.f32",
+    "observations": [
+      {
+        "symbol": "air.atomic.global.add.f32",
+        "declaration": "declare float @air.atomic.global.add.f32(float addrspace(1)* nocapture, float, i32, i32, i1) local_unnamed_addr #3",
+        "probe": "atomic_float",
+        "source": "evidence/probes/atomic_float/atomic_float.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atomic.global.cmpxchg.weak.f32",
+    "observations": [
+      {
+        "symbol": "air.atomic.global.cmpxchg.weak.f32",
+        "declaration": "declare float @air.atomic.global.cmpxchg.weak.f32(float addrspace(1)* nocapture, float* nocapture, float, i32, i32, i32, i1) local_unnamed_addr #3",
+        "probe": "atomic_float",
+        "source": "evidence/probes/atomic_float/atomic_float.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atomic.global.load.f32",
+    "observations": [
+      {
+        "symbol": "air.atomic.global.load.f32",
+        "declaration": "declare float @air.atomic.global.load.f32(float addrspace(1)* nocapture, i32, i32, i1) local_unnamed_addr #3",
+        "probe": "atomic_float",
+        "source": "evidence/probes/atomic_float/atomic_float.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atomic.global.store.f32",
+    "observations": [
+      {
+        "symbol": "air.atomic.global.store.f32",
+        "declaration": "declare void @air.atomic.global.store.f32(float addrspace(1)* nocapture, float, i32, i32, i1) local_unnamed_addr #3",
+        "probe": "atomic_float",
+        "source": "evidence/probes/atomic_float/atomic_float.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.atomic.global.xchg.f32",
+    "observations": [
+      {
+        "symbol": "air.atomic.global.xchg.f32",
+        "declaration": "declare float @air.atomic.global.xchg.f32(float addrspace(1)* nocapture, float, i32, i32, i1) local_unnamed_addr #3",
+        "probe": "atomic_float",
+        "source": "evidence/probes/atomic_float/atomic_float.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.get_extent_global_tensor",
+    "observations": [
+      {
+        "symbol": "air.get_extent_global_tensor.i32",
+        "declaration": "declare i32 @air.get_extent_global_tensor.i32(%struct._tensor_t addrspace(1)* nocapture readonly, i16, i16) local_unnamed_addr #4",
+        "probe": "tensor_read-retry1",
+        "source": "evidence/probes/tensor_read-retry1/tensor_read.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.get_read_sampler",
+    "observations": [
+      {
+        "symbol": "air.get_read_sampler",
+        "declaration": "declare %struct._sampler_t addrspace(2)* @air.get_read_sampler() local_unnamed_addr #1",
+        "probe": "texture_read_write",
+        "source": "evidence/probes/texture_read_write/texture_read_write.metal",
+        "called": true
+      }
+    ]
+  },
+  {
+    "base": "air.load_global_tensor.s.i32.global",
+    "observations": [
+      {
+        "symbol": "air.load_global_tensor.s.i32.global.f32",
+        "declaration": "declare float @air.load_global_tensor.s.i32.global.f32(%struct._tensor_t addrspace(1)* nocapture readonly, i16, i8* nocapture readonly, i8* nocapture readonly) local_unnamed_addr #3",
+        "probe": "tensor_read-retry1",
+        "source": "evidence/probes/tensor_read-retry1/tensor_read.metal",
+        "called": true
+      }
+    ]
+  }
+]
